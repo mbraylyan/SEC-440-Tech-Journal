@@ -5,7 +5,7 @@ set high-availability vrrp group langroup vrid '10'
 set high-availability vrrp group wangroup01 address 10.0.17.101/24
 set high-availability vrrp group wangroup01 interface 'eth0'
 set high-availability vrrp group wangroup01 priority '100'
-set high-availability vrrp group wangroup01 vrid '20'
+set high-availability vrrp group wangroup01 vrid '151'
 set interfaces ethernet eth0 address '10.0.17.71/24'
 set interfaces ethernet eth0 description 'SEC440-WAN'
 set interfaces ethernet eth1 address '10.0.5.3/24'
